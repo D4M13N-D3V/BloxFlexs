@@ -1,0 +1,131 @@
+fileFormatVersion: 2
+guid: 3205f5083d3130546a1df32c013d32db
+timeCreated: 1441567518
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Background Piece 2
+    100002: Background Piece 3
+    100004: Background piece1
+    100006: //RootNode
+    100008: Deco plane 1
+    100010: Deco plane 2
+    100012: EnemyBlock
+    100014: Forground Piece 1
+    100016: Forground Piece 2
+    100018: Forground Piece 3
+    100020: Life
+    100022: Player
+    100024: Stage
+    400000: Background Piece 2
+    400002: Background Piece 3
+    400004: Background piece1
+    400006: //RootNode
+    400008: Deco plane 1
+    400010: Deco plane 2
+    400012: EnemyBlock
+    400014: Forground Piece 1
+    400016: Forground Piece 2
+    400018: Forground Piece 3
+    400020: Life
+    400022: Player
+    400024: Stage
+    2300000: Background Piece 2
+    2300002: Background Piece 3
+    2300004: Background piece1
+    2300006: Deco plane 1
+    2300008: Deco plane 2
+    2300010: EnemyBlock
+    2300012: Forground Piece 1
+    2300014: Forground Piece 2
+    2300016: Forground Piece 3
+    2300018: Life
+    2300020: Player
+    2300022: Stage
+    3300000: Background Piece 2
+    3300002: Background Piece 3
+    3300004: Background piece1
+    3300006: Deco plane 1
+    3300008: Deco plane 2
+    3300010: EnemyBlock
+    3300012: Forground Piece 1
+    3300014: Forground Piece 2
+    3300016: Forground Piece 3
+    3300018: Life
+    3300020: Player
+    3300022: Stage
+    4300000: Stage
+    4300002: EnemyBlock
+    4300004: Life
+    4300006: Deco plane 1
+    4300008: Deco plane 2
+    4300010: Player
+    4300012: Forground Piece 1
+    4300014: Background Piece 3
+    4300016: Background piece1
+    4300018: Background Piece 2
+    4300020: Forground Piece 3
+    4300022: Forground Piece 2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
