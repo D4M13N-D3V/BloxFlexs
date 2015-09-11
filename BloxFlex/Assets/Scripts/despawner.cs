@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class despawner : MonoBehaviour {
-
+	public GameObject gameManager;
 	// Use this for initialization
 	void Start () {
 	
@@ -15,7 +15,8 @@ public class despawner : MonoBehaviour {
 
 	void OnTriggerEnter( Collider coll ) {
 		if (coll.tag == "Enemy") {
-			Destroy (coll.gameObject);
+			coll.gameObject.GetComponent<enemyscaledelete>().Despawn();
+			gameManager.GetComponent<gamemanager>().addScore(1);
 		}
 	}
 }
