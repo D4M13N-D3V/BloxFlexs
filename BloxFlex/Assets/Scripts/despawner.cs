@@ -14,7 +14,7 @@ public class despawner : MonoBehaviour {
 	}
 
 	void OnTriggerEnter( Collider coll ) {
-		if (coll.tag == "Enemy") {
+		if (coll.tag == "EnemyBlock") {
 			coll.gameObject.GetComponent<enemyscaledelete>().Despawn();
 			gameManager.GetComponent<gamemanager>().addScore(1);
 		}

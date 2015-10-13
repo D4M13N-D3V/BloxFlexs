@@ -2,6 +2,7 @@
 using System.Collections;
 
 public class gamemanager : MonoBehaviour {
+    public bool gameOver = false;
 	public float spawnRate = 0.5F;
 	public float enemySpeed = 1;
 	public GameObject spawnManager;
@@ -46,8 +47,8 @@ public class gamemanager : MonoBehaviour {
 			nextLevelScore = (level*5)*2;
 			enemySpeed=enemySpeed+0.5f;
 			spawnRate=spawnRate+0.05f;
-			playerMaxSpeed.x=playerMaxSpeed.x+0.05f;
-			playerSpeed.x=playerSpeed.x+0.05f;
+			//playerMaxSpeed.x=playerMaxSpeed.x+0.005f;
+			//playerSpeed.x=playerSpeed.x+0.005f;
 			updateLevel();
 			updateEnemys();
 			updatePlayer();
