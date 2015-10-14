@@ -22,14 +22,20 @@ public class spawnmanager : MonoBehaviour {
             if (!pausebutton.GetComponent<PauseButton>().paused)
              {
             int rdm = Random.Range(0, 6);
-                if (enemyprefabs.Length == 1)
+                if (gamemanager.GetComponent<gamemanager>().level<3)
                 {
                     GameObject gameobj = Instantiate(enemyprefabs[0], spawns[rdm].transform.position, Quaternion.identity) as GameObject;
                     gameobj.GetComponent<Rigidbody>().AddForce(-Vector3.up * (speed * 4));
                 }
-                else
+                else if (gamemanager.GetComponent<gamemanager>().level < 6)
                 {
-                    int rdm2 = Random.Range(0, enemyprefabs.Length - 1);
+                    int rdm2 = Random.Range(0, enemyprefabs.Length);
+                    GameObject gameobj = Instantiate(enemyprefabs[rdm2], spawns[rdm].transform.position, Quaternion.identity) as GameObject;
+                    gameobj.GetComponent<Rigidbody>().AddForce(-Vector3.up * (speed * 4));
+                }
+                else //if (gamemanager.GetComponent<gamemanager>().level < 6)
+                {
+                    int rdm2 = Random.Range(0, enemyprefabs.Length);
                     GameObject gameobj = Instantiate(enemyprefabs[rdm2], spawns[rdm].transform.position, Quaternion.identity) as GameObject;
                     gameobj.GetComponent<Rigidbody>().AddForce(-Vector3.up * (speed * 4));
                 }
