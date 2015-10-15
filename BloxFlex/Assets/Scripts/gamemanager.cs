@@ -30,7 +30,7 @@ public class gamemanager : MonoBehaviour {
 	}
 
 	public void updateEnemys(){
-		spawnManager.GetComponent<spawnmanager> ().speed = enemySpeed;
+		//spawnManager.GetComponent<spawnmanager> ().speed = enemySpeed;
 		spawnManager.GetComponent<spawnmanager> ().spawnRate = spawnRate;
 	}
 

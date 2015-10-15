@@ -77,6 +77,8 @@
     <Compile Include="Assets\Scripts\AudioProcessor.cs" />
     <Compile Include="Assets\Scripts\CubeHandler.cs" />
     <Compile Include="Assets\Scripts\CubeSpawnManager.cs" />
+    <Compile Include="Assets\Scripts\Enemys\LaserEnemy.cs" />
+    <Compile Include="Assets\Scripts\Enemys\ProjectileSpeeed.cs" />
     <Compile Include="Assets\Scripts\Enemys\SideStepEnemy.cs" />
     <Compile Include="Assets\Scripts\MainMenu\Exit.cs" />
     <Compile Include="Assets\Scripts\MainMenu\HighScore.cs" />
